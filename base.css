@@ -1,0 +1,45 @@
+/*this file contains boilerplate css common to all pages*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+/*image-responsiveness*/
+
+img,
+video,
+iframe{
+    max-inline-size: 100%;
+    block-size: auto;
+ /*aspect-ratio: auto;
+  object-fit: contain cover ;
+  object-position: top center;*/
+}
+
+/* resetting lists and links*/
+
+ol,ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+button{
+    border: none;
+    cursor:pointer ;
+    
+}
+
+p{
+    line-height: 1.5rem;
+}

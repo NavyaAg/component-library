@@ -1,0 +1,5 @@
+@import url("./base.css");
+
+/*------components----------*/
+
+@import url("./components/card/card.css");
