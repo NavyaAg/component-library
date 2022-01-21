@@ -5,15 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Stylesheets-->
     <link rel="stylesheet" href="/index.css">
-    <link rel="stylesheet" href="card.css">
+   <!-- <link rel="stylesheet" href="card.css">-->
     <title>Card</title>
 </head>
 <body>
     <h1>This is card element</h1>
     <div class="card">
-        <div class="card__img"></div>
-        <div class="card__description"></div>
-        <div class="card__cta"></div>
+        <div class="card__img">
+            <img class="card__img-product"src="https://picsum.photos/300/" alt="">
+        </div>
+        <div class="card__description">
+            <div class="card__description-primary">
+                <h3 class="card-title">Upside Down</h3>
+                <p class="card-subtitle light">Knitted Sweater</p>
+                <div class="card-info-primary">
+                    <span class=""><b>Rs.1199</b> </span>
+                    <span class="light "> <s>Rs.1399</s> </span>
+                    <span class="discount">14% OFF</span>
+                 </div>
+             </div>
+             <div class="card__description-secondary">
+                 <p> <small><b> Limited Edition</b></small>  </p>
+             </div>
+             <div class="card__cta">
+                 <button>Add to Card</button>
+             </div>
+        </div>
+        
     </div>
 </body>
 </html>

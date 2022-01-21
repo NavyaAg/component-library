@@ -2,6 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
+:root{
+    --rich-black-fogra-39: #0b090aff;
+--eerie-black: #161a1dff;
+    --prussian-blue: #033270ff;
+--sapphire-blue: #1368aaff;
+--green-blue-crayola: #4091c9ff;
+--light-cornflower-blue: #9dcee2ff;
+--misty-rose: #fedfd4ff;
+--dark-salmon: #f29479ff;
+--tomato: #f26a4fff;
+--cinnabar: #ef3c2dff;
+--venetian-red: #cb1b16ff;
+--rosewood: #65010cff;
+--light-gray: rgb(185, 185, 185);
+--cultured: #f5f3f4ff;
+--white: #ffffffff;
+}
+
 
 *{
     margin: 0;
@@ -18,9 +36,9 @@ video,
 iframe{
     max-inline-size: 100%;
     block-size: auto;
- /*aspect-ratio: auto;
-  object-fit: contain cover ;
-  object-position: top center;*/
+   aspect-ratio: 16/9;
+  object-fit: cover ;
+  object-position:center;
 }
 
 /* resetting lists and links*/

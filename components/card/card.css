@@ -1,0 +1,56 @@
+.card{
+    display: flex;
+    width:250px;
+   min-height:400px;
+    background:var(--cultured);  
+    margin: 1rem;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.card__img{
+       height: 225px;
+        width: 100%;
+        background: var(--cultured);     
+}
+
+.card__img-product{
+    width: 100%;
+    height: 100%;
+}
+
+.card__description
+    {
+    padding: 0.5rem;
+   
+}
+
+.card-subtitle.light{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color:var(--light-gray) ;
+}
+
+.card-info-primary{
+    font-size: 0.9rem;
+}
+
+.discount{
+    color: var(--sapphire-blue);
+    font-weight: bold;
+}
+.card__description-secondary{
+    color: var(--venetian-red);
+}
+
+.card__cta{
+    display: flex;
+}
+
+button{
+        margin: auto;
+        padding: 0.5rem 4rem;
+        font-size: 1rem;
+        background: tomato;
+}
