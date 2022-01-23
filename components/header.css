@@ -1,0 +1,25 @@
+body{
+   /* background: violet;*/
+    margin: 1.75rem;
+}
+
+/*------navbar--------*/
+.navbar{
+    display: flex;
+    background: var(--rosewood);
+    padding: 1.5rem 1rem;
+    color: var(--cultured);
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-menu{
+    margin-left: auto;   
+}
+.nav-item{
+    display: inline-block;
+}
+.nav-item,.brand-name,.hamburger-icon{
+    margin: 0.5rem;
+}
+
+/*-------------*/
