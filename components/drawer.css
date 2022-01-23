@@ -1,0 +1,32 @@
+
+
+.drawer{
+    width: 25rem;
+    background: var(--cultured);
+    padding: 1rem;
+}
+.drawer__list-item{
+    display: flex;
+    align-items: center;
+   margin: 1rem 0;
+   padding: 1.25rem 0.7rem;
+   border-radius: 5px;
+   transition: background 0.2s ;
+
+}
+.drawer__list-item:hover{
+    background-color: rgba(254, 223, 212, 0.466);
+
+}
+
+
+
+.item-name{
+        display: inline-block;
+        margin-left: 2rem;
+}
+
+.drawer-active{
+    background: var(--misty-rose);
+    color: var(--venetian-red);
+}

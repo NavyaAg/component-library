@@ -3,10 +3,11 @@ body{
     margin: 1.75rem;
 }
 
+
 /*------navbar--------*/
 .navbar{
     display: flex;
-    background: var(--rosewood);
+    background: var(--venetian-red);
     padding: 1.5rem 1rem;
     color: var(--cultured);
     align-items: center;
