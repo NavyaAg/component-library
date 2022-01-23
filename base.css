@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 :root{
+    font-size: 62.5%;
+
     --rich-black-fogra-39: #0b090aff;
 --eerie-black: #161a1dff;
     --prussian-blue: #033270ff;
@@ -29,6 +31,9 @@
    
 }
 
+body{
+    font-size: 1.6rem;
+}
 /*image-responsiveness*/
 
 img,
