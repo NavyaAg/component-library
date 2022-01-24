@@ -1,0 +1,17 @@
+.chip{
+    display: flex;
+    width: 10rem;
+    min-width:10rem;
+    background: var(--misty-rose);
+    padding: 0.3rem;
+    border-radius: 2rem;
+    justify-content: space-between;
+}
+
+.chip-name{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
