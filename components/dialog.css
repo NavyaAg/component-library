@@ -1,0 +1,35 @@
+.dialog{
+    width:25rem;
+    min-height:15rem;
+    background: var(--cultured);
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+}
+
+.dialog__title{
+    margin: 1rem;
+}
+
+.dialog__subtitle{
+    font-size: 1.25rem;
+    color:var(--light-gray) ;
+    margin: 1rem;
+}
+
+.dialog__action{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom:1rem;
+    right:1rem;
+}
+
+.dialog__action-primary,.dialog__action-secondary{
+    margin: 0.5rem;
+    padding:  0.7rem 2rem;
+}
+
+.btn-secondary:hover{
+    background:rgba(254, 223, 212, 0.466);;
+}
