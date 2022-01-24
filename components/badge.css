@@ -8,16 +8,15 @@
 
 .badge-style{
     background: var(--venetian-red);
-    display: flex;
+    display: flex;           /*check for utility 11-13*/
     justify-content: center;
     align-items: center;
     height: 1.75rem;
     width: 1.75rem;
-    padding: 2px;
     font-size: 1rem;
-    text-align: center;
     border-radius: 4rem;
-    background-color: violet;
+    color: var(--white);
+    background-color:var(--venetian-red);
     position: absolute;
 }
 
