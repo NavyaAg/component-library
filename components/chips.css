@@ -7,23 +7,23 @@
     display: flex;
      min-width:10rem; 
      max-width: 25rem; 
-     
+     cursor: pointer;
     background: var(--misty-rose);
-    padding: 0.3rem;
+    padding: 3px;
     border-radius: 2rem;
     justify-content:space-between;
     align-items: center;
-    margin: 0.5rem;
+    margin: 5px;
 }
 
 .chip-name{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    padding: 0.5rem;
+    padding:5px;
 }
 .chip-icon{
-    padding: 0.2rem;
+    padding:2px;
 }
 
 .active{
